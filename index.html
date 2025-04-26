@@ -4,8 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anjali Khurana Rai | Human-AI Researcher</title>
-  <!-- Link to external stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Reset & Base */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 16px; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; }
+
+    /* Container */
+    .content-wrapper { max-width: 800px; margin: 2rem auto; padding: 0 1rem; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+    /* Header & Nav */
+    .site-header { background: #fff; padding: 1rem 0; box-shadow: 0 1px 4px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+    .navbar { display: flex; justify-content: center; }
+    .nav-list { list-style: none; display: flex; gap: 1.5rem; }
+    .nav-list a { text-decoration: none; color: #007acc; font-weight: 500; }
+    .nav-list a:hover { text-decoration: underline; }
+
+    /* Sections */
+    section { padding: 2rem 0; border-bottom: 1px solid #e0e0e0; }
+    section:last-child { border: none; }
+    h1, h2 { color: #222; margin-bottom: 0.5rem; }
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+    p, li { margin-bottom: 0.75rem; }
+    ul, ol { margin-left: 1.25rem; }
+
+    /* Profile Photo */
+    .profile-photo { display: block; width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin: 1rem 0; }
+
+    /* Footer */
+    .site-footer { text-align: center; font-size: 0.875rem; padding: 1rem 0; color: #666; }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -24,14 +53,15 @@
 
   <main class="content-wrapper">
     <!-- About Me -->
-    <section id="about-me" class="section">
+    <section id="about-me">
       <h1>Anjali Khurana Rai</h1>
-      <p>PhD Candidate in Computing Science at Simon Fraser University | Human-AI Interaction & LLM Agents Researcher</p>
+      <p><strong>PhD Candidate in Computing Science</strong> at Simon Fraser University<br>
+      Specializing in Human-AI Interaction & LLM-based Agents for Software Help-Seeking</p>
       <img src="assets/images/profile.jpg" alt="Profile Photo" class="profile-photo">
     </section>
 
     <!-- Research Interests -->
-    <section id="research-interests" class="section">
+    <section id="research-interests">
       <h2>Research Interests</h2>
       <ul>
         <li>Human–LLM Collaboration & Copilots</li>
@@ -42,7 +72,7 @@
     </section>
 
     <!-- Publications -->
-    <section id="publications" class="section">
+    <section id="publications">
       <h2>Publications</h2>
       <ol>
         <li><strong>CHI 2025</strong> – Do It For Me vs. Do It With Me: Investigating User Perceptions of Different Levels of Automation in Copilots for Feature-Rich Software</li>
@@ -55,7 +85,7 @@
     </section>
 
     <!-- Projects -->
-    <section id="projects" class="section">
+    <section id="projects">
       <h2>Projects</h2>
       <ul>
         <li><strong>UXEva:</strong> LLM-driven UI evaluation agent identifying design issues automatically.</li>
@@ -67,13 +97,13 @@
     </section>
 
     <!-- Press -->
-    <section id="press" class="section">
+    <section id="press">
       <h2>Press</h2>
       <p>Featured by SFU Graduate and Postdoctoral Studies: <a href="https://www.sfu.ca/gradstudies/life-community/people-research/profiles/fas/2022/anjali-khurana.html">Graduate Researcher Profile</a>.</p>
     </section>
 
     <!-- Awards and Honors -->
-    <section id="awards" class="section">
+    <section id="awards">
       <h2>Awards & Honors</h2>
       <ul>
         <li>Nominated for Google PhD Fellowship – SFU (2024)</li>
@@ -83,7 +113,7 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="section">
+    <section id="contact">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:anjali_khurana@sfu.ca">anjali_khurana@sfu.ca</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/anjali-khurana-rai-418710124/">linkedin.com/in/anjali-khurana-rai-418710124/</a></p>
